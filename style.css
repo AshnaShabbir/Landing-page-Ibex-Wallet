@@ -1,0 +1,90 @@
+/*global style sheet*/
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #8d6788;
+        }
+
+        .navbar {
+            background-color: #621b58;
+        }
+
+        .navbar-brand {
+            color: #ffffff !important;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+        }
+        /*.hero-bg-media{
+            
+            background-size: cover;
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            background-origin: content-box;
+            width: 100%;
+        
+            }*/
+    
+
+        .hero-section {
+            background: url('https://via.placeholder.com/1920x800.png?text=Ibex+Wallet') no-repeat center center;
+            background-size: cover;
+            color: #542c2c;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.25rem;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 2.5rem;
+        }
+
+        .feature-box {
+            background-color: #479084;
+            box-shadow: 0px 4px 6px rgba(123, 94, 94, 0.1);
+            padding: 30px;
+            margin: 20px;
+            text-align: center;
+            border-radius: 8px;
+            height: 25vh;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 15px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .footer {
+            background-color: #621b58;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .btn-primary {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+        }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+            border-color: #45a049;
+        }
